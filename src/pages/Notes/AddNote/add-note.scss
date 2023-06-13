@@ -1,0 +1,19 @@
+
+.add-note-wrapper {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    color: gray;
+
+    &:hover {
+        scale: 1.1;
+    }
+}

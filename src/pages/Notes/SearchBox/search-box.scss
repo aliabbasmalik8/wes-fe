@@ -1,0 +1,19 @@
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+
+    .note-status-select {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .select-class {
+            width: 250px;
+        }
+    }
+}

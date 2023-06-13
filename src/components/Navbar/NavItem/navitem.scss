@@ -1,0 +1,21 @@
+
+.nav-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+
+    .icon {
+        scale: 1.2;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+    
+    &:hover {
+        scale: 1.1;
+    }
+}
